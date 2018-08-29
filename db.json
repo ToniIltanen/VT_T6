@@ -1,0 +1,81 @@
+{
+    "categories" : {
+        "Miehet" : {
+            "id" : "82d7c3e2-0643-4625-a982-e640d6c3a82a",
+            "subcategories" : [
+                {
+                    "id" : "5e442be8-d8d5-4f0b-a02d-1f8d390b7852",
+                    "name" : "Housut"
+                },
+                {
+                    "id" : "82d7c3e2-0643-4625-a982-e640d6c3a82a",
+                    "name" : "Paidat"
+                },
+                {
+                    "id" : "64023f77-fbd7-44af-8e03-c2595f650258",
+                    "name" : "Takit"
+                }
+            ]
+        },
+        "Naiset" : {
+            "id" : "287dda99-1e30-4136-ad9b-6b615b9c369d",
+            "subcategories" : [
+                {
+                    "id" : "64023f77-fbd7-44af-8e03-c2595f650258",
+                    "name" : "Housut"
+                },
+                {
+                    "id" : "f299516d-0e2c-4c15-8a09-92cbe4efd793",
+                    "name" : "Paidat"
+                },
+                {
+                    "id" : "cf87deee-a868-4cc6-b696-22673406579f",
+                    "name" : "Takit"
+                },
+                {
+                    "id" : "4d7ea747-5520-4d59-802b-7f7e870cfc24",
+                    "name" : "Tarvikkeet"
+                }
+            ]
+        }
+    },
+    "warehouses": [
+       {
+           "name": "Oulu",
+            "id": "96a5cb3f-f78d-4984-8bfe-114655a57a23"
+       },
+       {
+            "name": "Helsinki",
+            "id": "f771c7cf-32d2-4c54-8cfe-a4c3242fd748"
+       },
+       {
+            "name": "Tampere",
+            "id": "817b1abe-e7b3-4d25-b144-f0b6c1f32444"
+       }
+    ],
+    "products" : [
+        {
+            "name" : "Ralston slim fit jeans fumulus",
+            "manufacturer": "SCOTCH & SODA",
+            "category_id": "foobar",
+            "image": "images/m_farkut_1.jpg",
+            "price": 12.40,
+            "description": "foobar",
+            "discount": 25,
+            "stock": [
+                {
+                    "id": "96a5cb3f-f78d-4984-8bfe-114655a57a23",
+                    "amount": 2
+                },
+                {
+                    "id": "817b1abe-e7b3-4d25-b144-f0b6c1f32444",
+                    "amount": 20
+                },
+                {
+                    "id": "f771c7cf-32d2-4c54-8cfe-a4c3242fd748",
+                    "amount": 0
+                }
+            ]
+        }
+    ]
+}
