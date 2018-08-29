@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1024px) {
+
+    .splashbox {
+        position: static !important;
+        margin: 50px auto;
+      }
+}
+
+
+@media screen and (max-width: 600px) {
+    .splash {
+        background-position-x: -500px !important;
+      }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) and (min-height: 500px) { 
+    .splash {
+        background-position-x: -450px !important;
+      }
+}
+
