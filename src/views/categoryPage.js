@@ -17,8 +17,10 @@ class CategoryPage extends Component {
     Object.keys(db.products).forEach(p => { 
       if(db.products[p].category_id === category) {
         products.push(<ProductItem key={db.products[p].id} 
+          id={db.products[p].id}
+          category={db.products[p].category_id}
           name={db.products[p].name} 
-          oldPrice={db.products[p].price} 
+          discount={db.products[p].discount} 
           price={db.products[p].price} 
           img={db.products[p].image} 
           manufacturer={db.products[p].manufacturer} />)
@@ -38,7 +40,7 @@ class CategoryPage extends Component {
       if(typeof(db.categories[c].subcategories) !== 'undefined') {
         Object.keys(db.categories[c].subcategories).forEach(sub => {
           if(db.categories[c].subcategories[sub].id === category) {
-            found = db.categories[c].name + "-" + db.categories[c].subcategories[sub].name
+            found = db.categories[c].name + "  -  " + db.categories[c].subcategories[sub].name
           }
         })
       }

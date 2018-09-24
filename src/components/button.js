@@ -3,15 +3,21 @@ import { browserHistory } from 'react-router'
 
 class Button extends Component {
 
-  jumpTo = (url) => {
-    browserHistory.push(url)
+
+  performAction = () => {
+    if(this.props.link != null) {
+      browserHistory.push(this.props.link)
+    }
+    if(this.props.action != null) {
+      this.props.action()
+    }
   }
 
   render() {
-    const url = this.props.link
     return (
-    <div className="btn">
-        <button onClick={() => this.jumpTo(url)}>{this.props.text}</button>
+
+    <div className="btn" style={this.props.style}>
+        <button onClick={() => this.performAction()}>{this.props.text}</button>
     </div>
     );
   }
