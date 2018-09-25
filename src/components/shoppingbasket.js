@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Button from './button'
+import {resetBasket} from '../actions/shoppingbasket'
 @connect((store) => {
   return {
       shoppingbasket: store.shoppingbasket.shoppingbasket
@@ -25,7 +26,8 @@ class ShoppingBasket extends Component {
         info = <div>
           <span>Tuotteita ostoskorissa: {totalcount} kpl</span><br/>
           <span>Yhteishinta: {totalprice.toFixed(2)} €</span><br /><br />
-          <Button style={{padding: '0px'}} link='#' text="Siirry kassalle" />
+          <Button style={{padding: '0px', width: '50%'}} link='#' text="Kassalle" />
+          <Button style={{padding: '0px', width: '50%'}} action={() => resetBasket()} text="Tyhjennä" />
         </div>
       }
 

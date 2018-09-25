@@ -8,11 +8,14 @@ import SocialMediaList from '../components/socialMediaList'
 import SocialMedia from '../components/socialMedia'
 import ShoppingBasket from '../components/shoppingbasket'
 import FontAwesomeIcon from 'react-fontawesome'
+import Toaster from '../components/toaster'
+
 class Splash extends Component {
   render() {
     return (
     <div className="container-fluid" >
         <Header />
+        <Toaster />
         <Row>
             <Col colStyle="col-md-9 col-lg-9 col-sm-12">
                 {this.props.children}
