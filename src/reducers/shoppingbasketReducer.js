@@ -13,6 +13,9 @@ export default function reducer (state = initialState, action) {
         case 'SHOPPINGBASKET_UPDATE': {
             return {...state, shoppingbasket: action.payload};
         }
+        case 'SHOPPINGBASKET_ORDER': {
+            return {...state, shoppingbasket: []};
+        }
         default: {
             return state;
           }

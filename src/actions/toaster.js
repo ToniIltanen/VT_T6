@@ -13,3 +13,7 @@ export function productUpdated (products) {
 export function shoppingbasketReseted () { 
     toast(<span><FontAwesomeIcon style={{color: 'white'}} name='shopping-basket'/>Ostoskori tyhjennetty</span>, {type: 'error', hideProgressBar: true});
 }
+
+export function shoppingbasketOrder() { 
+    toast(<span><FontAwesomeIcon style={{color: 'white'}} name='shopping-basket'/>Tilaus vastaanotettu!</span>, {type: 'info', hideProgressBar: true});
+}

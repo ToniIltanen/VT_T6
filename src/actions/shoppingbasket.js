@@ -1,5 +1,6 @@
 import store from '../store';
-import {productAdded, shoppingbasketReseted, productUpdated} from './toaster'
+import {productAdded, shoppingbasketReseted, productUpdated, shoppingbasketOrder} from './toaster'
+import { browserHistory } from 'react-router'
 
 export function addToBasket (item) {
     store.dispatch({
@@ -22,4 +23,15 @@ export function resetBasket () {
         type: 'SHOPPINGBASKET_RESET'
     });
     shoppingbasketReseted()
+}
+
+export function submitOrder () {
+    store.dispatch({
+        type: 'SHOPPINGBASKET_ORDER'
+    });
+    browserHistory.push(process.env.PUBLIC_URL + "/verkkokauppa")
+    setTimeout(() => {
+        shoppingbasketOrder()
+    }, 1000)
+    
 }

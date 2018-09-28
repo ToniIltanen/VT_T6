@@ -23,19 +23,16 @@ class ProductPage extends Component {
   }
 
   componentDidMount() {
-    console.log("eka")
     this.fetchProduct(this.props.params.item)
   }
 
   onSizeChange(event) {
-    console.log(this.props.shoppingbasket)
-    let product = this.state.currentProduct
+    let product = Object.create(this.state.currentProduct)
     product.size = event.target.value
     this.setState({currentProduct: product})
   }
 
   fetchProduct = (product) => {
-    console.log("neljäs")
     Object.keys(db.products).forEach(p => {
       if(db.products[p].id === product) {
         db.products[p].size = 29
@@ -43,8 +40,6 @@ class ProductPage extends Component {
       }
     })
   }
-
-
 
   render() {
     const image = this.state.currentProduct && require("../assets/images/" + this.state.currentProduct.image)
