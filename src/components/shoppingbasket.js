@@ -4,7 +4,7 @@ import Button from './button'
 import {resetBasket} from '../actions/shoppingbasket'
 @connect((store) => {
   return {
-      shoppingbasket: store.shoppingbasket
+      shoppingbasket: store.shoppingbasket.shoppingbasket
   };
 })
 
@@ -12,11 +12,11 @@ class ShoppingBasket extends Component {
 
   ProductsInfo = () => {
     let info = null
-    if(this.props.shoppingbasket.shoppingbasket != null) {
+    if(this.props.shoppingbasket != null) {
       let totalprice = 0
-      let totalcount = this.props.shoppingbasket.shoppingbasket.length
-      if(this.props.shoppingbasket.shoppingbasket.length > 0) {
-        this.props.shoppingbasket.shoppingbasket.forEach((item) => {
+      let totalcount = this.props.shoppingbasket.length
+      if(this.props.shoppingbasket.length > 0) {
+        this.props.shoppingbasket.forEach((item) => {
           if(item.discount > 0) {
             totalprice += (item.price * item.discount)
           } else {

@@ -19,28 +19,32 @@ class ProductPage extends Component {
     this.state = {
       currentProduct: null
     }
+    this.onSizeChange = this.onSizeChange.bind(this);
   }
 
   componentDidMount() {
+    console.log("eka")
     this.fetchProduct(this.props.params.item)
   }
 
-  onSizeChange = (event) => {
+  onSizeChange(event) {
     console.log(this.props.shoppingbasket)
-    let p = this.state.currentProduct
-    p.size = event.target.value
-    this.setState({currentProduct: p})
+    let product = this.state.currentProduct
+    product.size = event.target.value
+    this.setState({currentProduct: product})
   }
 
   fetchProduct = (product) => {
+    console.log("neljäs")
     Object.keys(db.products).forEach(p => {
       if(db.products[p].id === product) {
-        //set initial size
         db.products[p].size = 29
         this.setState({currentProduct: db.products[p]})
       }
     })
   }
+
+
 
   render() {
     const image = this.state.currentProduct && require("../assets/images/" + this.state.currentProduct.image)
@@ -63,7 +67,7 @@ class ProductPage extends Component {
                   <tr>
                     <td>Valitse koko: </td>
                     <td>
-                    <select onChange={this.onSizeChange} value={this.state.currentProduct.size}>
+                    <select onChange={this.onSizeChange}>
                       <option value="29">29</option>
                       <option value="30">30</option>
                       <option value="31">31</option>

@@ -3,6 +3,7 @@ import Layout from './layout'
 import ProductItem from '../components/productItem'
 import Row from '../components/row'
 import db from '../assets/db/db.json'
+
 class CategoryPage extends Component {
 
   constructor(props) {
