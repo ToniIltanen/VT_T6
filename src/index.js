@@ -9,6 +9,7 @@ import MainPage from './views/mainPage'
 import CategoryPage from './views/categoryPage'
 import ProductPage from './views/productPage'
 import store from './store'
+import PurchasePage from './views/purchasePage';
 
 
 const history = syncHistoryWithStore(browserHistory, store)
@@ -18,6 +19,7 @@ ReactDOM.render(
     <Router history={history} >
       <Route path={process.env.PUBLIC_URL + '/'} component={Splash} />
       <Route path={process.env.PUBLIC_URL + '/verkkokauppa'} component={MainPage}/>
+      <Route path={process.env.PUBLIC_URL + '/verkkokauppa/ostoskori'} component={PurchasePage}/>
       <Route path={process.env.PUBLIC_URL + '/verkkokauppa/:category'} component={CategoryPage}/>
       <Route path={process.env.PUBLIC_URL + '/verkkokauppa/:category/:item'} component={ProductPage}/>
     </Router>

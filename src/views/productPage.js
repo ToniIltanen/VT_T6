@@ -1,17 +1,23 @@
 import React, { Component } from 'react'
 import Layout from './layout'
 import db from '../assets/db/db.json'
-import {addToBasket} from '../actions/shoppingbasket'
+import {addToBasket, } from '../actions/shoppingbasket'
 import Row from '../components/row'
 import Col from '../components/col'
 import Button from '../components/button'
+import { connect } from 'react-redux';
 
-class CategoryPage extends Component {
+@connect((store) => {
+  return {
+      shoppingbasket: store.shoppingbasket.shoppingbasket
+  };
+})
+class ProductPage extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      product: null
+      currentProduct: null
     }
   }
 
@@ -19,27 +25,36 @@ class CategoryPage extends Component {
     this.fetchProduct(this.props.params.item)
   }
 
+  onSizeChange = (event) => {
+    console.log(this.props.shoppingbasket)
+    let p = this.state.currentProduct
+    p.size = event.target.value
+    this.setState({currentProduct: p})
+  }
+
   fetchProduct = (product) => {
     Object.keys(db.products).forEach(p => {
       if(db.products[p].id === product) {
-        this.setState({product: db.products[p]})
+        //set initial size
+        db.products[p].size = 29
+        this.setState({currentProduct: db.products[p]})
       }
     })
   }
 
   render() {
-    const image = this.state.product && require("../assets/images/" + this.state.product.image)
-    const discountPrice = this.state.product && (this.state.product.price * this.state.product.discount).toFixed(2)
+    const image = this.state.currentProduct && require("../assets/images/" + this.state.currentProduct.image)
+    const discountPrice = this.state.currentProduct && (this.state.currentProduct.price * this.state.currentProduct.discount).toFixed(2)
     return (
     <Layout>
-        {this.state.product && <h3>{this.state.product.name}</h3>}
+        {this.state.currentProduct && <h3>{this.state.currentProduct.name}</h3>}
         {
-          this.state.product && 
+          this.state.currentProduct && 
           <Row> 
             <Col colStyle="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-              <p style={{whiteSpace: 'pre-line'}}>{this.state.product.description}</p>
+              <p style={{whiteSpace: 'pre-line'}}>{this.state.currentProduct.description}</p>
               <p>
-                  Hinta: <span className={discountPrice !== 0 ? "old-price" : "no-sale"}>{this.state.product.price}€</span> {discountPrice !== 0 && <span className="sale-price">{discountPrice}€</span>}
+                  Hinta: <span className={discountPrice !== 0 ? "old-price" : "no-sale"}>{this.state.currentProduct.price}€</span> {discountPrice !== 0 && <span className="sale-price">{discountPrice}€</span>}
               </p>
               <br />
               <br />
@@ -48,7 +63,7 @@ class CategoryPage extends Component {
                   <tr>
                     <td>Valitse koko: </td>
                     <td>
-                    <select>
+                    <select onChange={this.onSizeChange} value={this.state.currentProduct.size}>
                       <option value="29">29</option>
                       <option value="30">30</option>
                       <option value="31">31</option>
@@ -64,13 +79,13 @@ class CategoryPage extends Component {
                   </tr>
                   <tr><td><br /></td></tr>
                   <tr>
-                    <td colspan="2"><Button style={{padding: '0px'}} action={() => addToBasket(this.state.product)} text="Lisää ostoskoriin" /></td>
+                    <td colSpan="2"><Button style={{padding: '0px'}} action={() => addToBasket(this.state.currentProduct)} text="Lisää ostoskoriin" /></td>
                   </tr>
                   </tbody>
                 </table>
             </Col>
             <Col colStyle="col-md-4 col-lg-3 col-sm-6 col-xs-12">
-              <img src={image} alt={this.state.product.name}/>
+              <img src={image} alt={this.state.currentProduct.name}/>
             </Col>
           </Row>
         }
@@ -79,4 +94,4 @@ class CategoryPage extends Component {
   }
 }
 
-export default CategoryPage;
+export default ProductPage;

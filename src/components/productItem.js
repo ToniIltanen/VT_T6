@@ -5,7 +5,7 @@ import Button from './button'
 class ProductItem extends Component {
   render() {
     const img = require("../assets/images/" + this.props.img)
-    const discountPrice = this.props.discount != 0 ? (this.props.price * this.props.discount).toFixed(2) : 0
+    const discountPrice = this.props.discount !== 0 ? (this.props.price * this.props.discount).toFixed(2) : 0
     return (
         <Col colStyle={"col-sm-6 col-md-4 col-lg-3"}>
           <div className="product-item">

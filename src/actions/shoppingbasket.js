@@ -1,5 +1,5 @@
 import store from '../store';
-import {productAdded, shoppingbasketReseted} from './toaster'
+import {productAdded, shoppingbasketReseted, productUpdated} from './toaster'
 
 export function addToBasket (item) {
     store.dispatch({
@@ -7,7 +7,14 @@ export function addToBasket (item) {
         payload: item
     });
     productAdded(item);
+}
 
+export function updateBasket (products) {
+    store.dispatch({
+        type: 'SHOPPINGBASKET_UPDATE',
+        payload: products
+    });
+    productUpdated();
 }
 
 export function resetBasket () {
