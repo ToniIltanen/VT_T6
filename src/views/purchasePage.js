@@ -135,15 +135,15 @@ class PurchasePage extends Component {
       <Layout>
       <h3> Ostoskori </h3>
         <Row>
-          {(products != null && products.length > 0) && <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          {(products != null && products.length > 0) && <div className="col-xs-10 col-sm-12 col-md-12 col-lg-12">
             <Stepper steps={ steps } activeStep={ currentStep } />
             {currentStep === 0 && <div style={{margin: '30px'}}>
-                <table cellPadding='15px' style={{margin: '0 auto'}}>
-                  <thead>
+                <table className='table-sm' cellPadding='15px' style={{margin: '0 auto'}}>
+                  <thead className='thead-dark'>
                     <tr>
-                      <th>Tuotenimi</th>
-                      <th>Koko</th>
-                      <th>Hinta</th>
+                      <th scope="col">Tuotenimi</th>
+                      <th scope="col">Koko</th>
+                      <th scope="col">Hinta</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -155,7 +155,7 @@ class PurchasePage extends Component {
                 </table>
               </div>}
               {currentStep === 1 && <div>
-                <table cellPadding='15px' style={{margin: '0 auto'}}>
+                <table className='table-sm' cellPadding='15px' style={{margin: '0 auto'}}>
                   <tbody>
                     <tr>
                         <td>Nimi:</td>
@@ -181,7 +181,7 @@ class PurchasePage extends Component {
                 </table>
               </div>}
               {currentStep === 2 && <div>
-                <table cellPadding='15px' style={{margin: '0 auto'}}>
+                <table className='table-sm' cellPadding='15px' style={{margin: '0 auto'}}>
                   <tbody>
                     <tr>
                         <td>Maksukortin numero:</td>
@@ -198,10 +198,10 @@ class PurchasePage extends Component {
                   </tbody>
                 </table>
               </div>}
-              <table style={{margin: '0 auto'}}><tr>
-              {currentStep !== 0 && <td><Button style={{width: "200px"}} action={this.onClickBack} text='Edellinen' /></td>} 
-              {currentStep < 2 && <td><Button style={{width: "200px"}} action={this.onClickNext } text='Seuraava' /></td> }
-              {currentStep > 1 && <td><Button style={{width: "200px"}} action={() => submitOrder() } text='Vahvista tilaus' /></td> }
+              <table className='table' style={{margin: '0 auto'}}><tr>
+              {currentStep !== 0 && <td><Button style={{width: "160px"}} action={this.onClickBack} text='Edellinen' /></td>} 
+              {currentStep < 2 && <td><Button style={{width: "160px"}} action={this.onClickNext } text='Seuraava' /></td> }
+              {currentStep > 1 && <td><Button style={{width: "160px"}} action={() => submitOrder() } text='Vahvista tilaus' /></td> }
            </tr></table>
           </div>}
           {(products == null || products.length === 0) && <p>Ei Tuotteita</p>}
