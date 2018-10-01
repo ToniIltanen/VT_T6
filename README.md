@@ -15,7 +15,7 @@
 
   ```
     npm install   // Asentaa tarvittavat paketit
-    npm run       // Käynnistää sovelluksen
+    npm start       // Käynnistää sovelluksen
   ```
 
   Käynnistämisen jälkeen, sivusto om nähtävissä osoitteesta: 
