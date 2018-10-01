@@ -5,7 +5,7 @@ class Toaster extends Component {
     render(){
         return (
           <div>
-            <ToastContainer autoClose={2000} type='info' />
+            <ToastContainer autoClose={3000} type='info' />
           </div>
         );
       }

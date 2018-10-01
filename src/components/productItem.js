@@ -18,7 +18,7 @@ class ProductItem extends Component {
               <div className={discountPrice !== 0 ? "old-price" : "no-sale"}>{this.props.price}€</div>
               {discountPrice !== 0 && <div className="sale-price">{discountPrice}€</div>}
             </div>
-            <Button link={process.env.PUBLIC_URL + '/verkkokauppa/' + this.props.category + '/' + this.props.id} text="Siirry" />
+            <Button link={process.env.PUBLIC_URL + '/verkkokauppa/' + this.props.category + '/' + this.props.id} text="Tuotetiedot" />
           </div>
         </Col>
     );

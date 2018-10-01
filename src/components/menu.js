@@ -37,9 +37,6 @@ class Menu extends Component {
                         <a className="dropdown-item" onClick={() => this.goToLink(process.env.PUBLIC_URL + "/verkkokauppa/64023f77-fbd7-44af-8e03-c2595f650258")}>Takit</a>
                     </div>
                 </li>
-                <li className="nav-item">
-                    <a className="nav-link">Tietoa yrityksestä</a>
-                </li>
             </ul>
             </div>
         </nav>

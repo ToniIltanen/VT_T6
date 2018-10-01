@@ -57,7 +57,7 @@ class ProductPage extends Component {
               </p>
               <br />
               <br />
-                <table>
+                <table style={{marginBottom: '20px'}}>
                   <tbody>
                   <tr>
                     <td>Valitse koko: </td>
@@ -84,7 +84,7 @@ class ProductPage extends Component {
                 </table>
             </Col>
             <Col colStyle="col-md-4 col-lg-3 col-sm-6 col-xs-12">
-              <img src={image} alt={this.state.currentProduct.name}/>
+              <img src={image} style={{maxWidth: '320px'}} alt={this.state.currentProduct.name}/>
             </Col>
           </Row>
         }
