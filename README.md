@@ -18,6 +18,11 @@
     npm run       // Käynnistää sovelluksen
   ```
 
+  Käynnistämisen jälkeen, sivusto nähtävissä osoitteesta: 
+  ```
+    http://localhost:3000
+  ```
+
 ## Testikäyttö
   Sivustoa voi testikäyttää osoitteessa http://toniiltanen.github.io/VT_T6
 
