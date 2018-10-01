@@ -28,7 +28,7 @@
 
 ## Konseptointi
 
-   ### Sketch
+   ####  Sketch
    Sketchin projektitiedosto löytyy kansiosta 
    ```
     /docs/concept/Sketch/verkkokauppa.sketch
@@ -47,14 +47,16 @@
     /docs/consept/verkkokauppa.pdf
    ```
 
-   ### Splash
+   ### Sivumallinnukset
+
+   #### Splash
    ![Splash page](docs/consept/Splash_page.png)
 
-   ### Etusivu
+   #### Etusivu
    ![Etusivu](docs/consept/Main_page.png)
 
-   ### Tuotesivu
+   #### Tuotesivu
    ![Tuotesivu](docs/consept/Product_page.png)
 
-   ### Ostoskori
+   #### Ostoskori
    ![Tuotesivu](docs/consept/Shopping_basket.png)
