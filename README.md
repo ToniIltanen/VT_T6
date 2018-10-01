@@ -44,6 +44,7 @@
     /docs/concept/Sketch/verkkokauppa.sketch
    ```
    Tarvittavat lisäfontit (mikäli ei ole asennettu omalle koneelle)
+
       - Font Awesome
       - Happy Day At School
 
