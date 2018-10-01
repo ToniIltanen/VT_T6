@@ -34,7 +34,12 @@
 ## Konseptointi
 
    ####  Sketch
-   Sketchin projektitiedosto löytyy kansiosta 
+   Konseptointi on toteutu Sketch -sovelluksella. 
+   Sovellus on maksullinen, ja vaatii toimiakseen macOS Käyttöjärjestelmällä varustetun tietokoneen. 
+
+   Sovelluksesta on saatavilla ilmainen kokeiluversio osoitteesta https://www.sketchapp.com/
+
+   Projektitiedoston löydät kansiosta:
    ```
     /docs/concept/Sketch/verkkokauppa.sketch
    ```
