@@ -1,16 +1,8 @@
 @import "./variables.scss";
 @import "~bootstrap/scss/bootstrap";
 @import "./media.scss";
+@import "./fonts.scss";
 @import "./ReactToastify.scss";
-
-@font-face {
-  font-family: 'hangedLetters';
-  src: url('static/media/fonts/HappyDayatSchool.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-$my-font: "hangedLetters";
 
 a:not([href]):not([tabindex]) { 
   color: white; 
@@ -93,7 +85,7 @@ html, body {
 }
 
 .splashbox h1 {
-  font-family: $my-font;
+  font-family: 'HangedLetters';
   text-align:center;
   color: darkkhaki;
   font-size:4em;
