@@ -18,7 +18,7 @@
     npm run       // Käynnistää sovelluksen
   ```
 
-  Käynnistämisen jälkeen, sivusto nähtävissä osoitteesta: 
+  Käynnistämisen jälkeen, sivusto om nähtävissä osoitteesta: 
   ```
     http://localhost:3000
   ```
