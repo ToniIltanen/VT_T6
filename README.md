@@ -34,7 +34,7 @@
 ## Konseptointi
 
    ####  Sketch
-   Konseptointi on toteutu Sketch -sovelluksella. 
+   Konseptointi on toteutettu Sketch -sovelluksella. 
    Sovellus on maksullinen, ja vaatii toimiakseen macOS Käyttöjärjestelmällä varustetun tietokoneen. 
 
    Sovelluksesta on saatavilla ilmainen kokeiluversio osoitteesta https://www.sketchapp.com/
