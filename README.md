@@ -4,7 +4,7 @@
   Sivusto tarvitsee asentuakseen nodejs ympäristön. Ympäristön voit asentaa osoitteesta: https://nodejs.org/en/download/
   Mikäli asennat sivuston githubista, tarvitset Gitin. Gitin voit asentaa osoitteesta: https://git-scm.com/downloads
   
-  Asennus Gitubista: 
+  Asennus GitHubista: 
 
   ```
     git clone https://github.com/ToniIltanen/VT_T6
