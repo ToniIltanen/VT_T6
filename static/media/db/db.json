@@ -26,7 +26,7 @@
             "name": "Naiset",
             "subcategories" : [
                 {
-                    "id" : "a8b39b47-d1a3-4ce9-aea3-86b69d57152e",
+                    "id" : "017c32be-0836-422f-a69b-5e9a170f30fe",
                     "name" : "Housut",
                     "isSubcategory": true
                 },
@@ -41,7 +41,7 @@
                     "isSubcategory": true
                 },
                 {
-                    "id" : "cf87deee-a868-4cc6-b696-22673406579f",
+                    "id" : "a4aca668-6b1a-46bc-8779-3b8b2e32098c",
                     "name" : "Tarvikkeet",
                     "isSubcategory": true
                 }
@@ -95,7 +95,7 @@
         },
         {
             "id" : "a2c1d21a-ea4b-4c5e-a509-93fe9e6d2acc",
-            "name" : "514 stonewash medium siniset farkut",
+            "name" : "514 stonewash medium farkut",
             "manufacturer": "LEVI´S",
             "category_id": "5e442be8-d8d5-4f0b-a02d-1f8d390b7852",
             "image": "levis_501_blue.jpeg",
@@ -105,7 +105,7 @@
         },
         {
             "id" : "123d1857-d01d-4c14-9de3-dfc49ef2d619",
-            "name" : "527 boot cut 0552 ingenious vaaleat farkut",
+            "name" : "527 boot cut 0552 ingenious",
             "manufacturer": "LEVI´S",
             "category_id": "5e442be8-d8d5-4f0b-a02d-1f8d390b7852",
             "image": "levis_527_bootcut.jpeg",
@@ -142,6 +142,126 @@
             "price": 79.50,
             "description": "Jack&Jones miesten makee harmaa parkatakki. Talvi parkatakki on vettä hylkivä ja paksusti topattu, siinä on irrotettava hupun reuna, isot etutaskut tarranauhakiinnityksellä, pehmeä ja mukava fleece kauluksen sisäpuolella, erikoissidos luo hienon struktuurin materiaaliin, tiiviit hihansuut suojaavat, iso sisätasku, vetoketju- ja painonappikiinnitys.\nTällä parkatakilla selviät takuulla talven yli. Se on vettä hylkivä ja paksusti topattu, ja sen ilmettä voi muunnella hupun irrotettavan reunan ansiosta.\nREGULAR FIT\n\nMateriaali:Kuori: 100% Polyesteriii, Vuori: 100% Polyester, Toppaus: 100% Polyester",
             "discount": 0.95
+        },
+        {
+            "id" : "0b1c4c77-e58f-425f-867f-7e5981c59a72",
+            "name" : "Harmaa T-Paita",
+            "manufacturer": "Jack & Jones",
+            "category_id": "82d7c3e2-0643-4625-a982-e640d6c3a82a",
+            "image": "m_tpaita_1.jpeg",
+            "price": 10,
+            "description": "Jack&Jones miesten harmaa rento yksitaskuinen puuvilla t-paita. Monikäyttöinen, yksinkertaista mallia oleva pehmeä ja miellyttävän tuntuinen lyhythihainen paita.\n\nREGULAR FIT\n\nMateriaali: 100%puuvillaa",
+            "discount": 0
+        },
+        {
+            "id" : "f6446109-b7f1-4f22-bc20-1e0f24aced2c",
+            "name" : "Siniruudullinen kauluspaita",
+            "manufacturer": "Jack & Jones",
+            "category_id": "82d7c3e2-0643-4625-a982-e640d6c3a82a",
+            "image": "m_paita2.jpeg",
+            "price": 25,
+            "description": "Jack&Jonesin siniruudullinen kauluspaita. Edessä 2 napillista taskua, olkapäillä yksityiskohdat.\n\nTyylikäs, laadukas paita.\n\nL koon olkahelmapituus 74cm, rinnanympärys 114cm, sisähihan pituus 53cm.\n\nMateriaali: 100% puuvilla.",
+            "discount": 0.90
+        },
+        {
+            "id" : "50cf7613-bc8e-4055-9950-2553eea6a69b",
+            "name" : "DOCAT musta t-paita",
+            "manufacturer": "Jack & Jones",
+            "category_id": "82d7c3e2-0643-4625-a982-e640d6c3a82a",
+            "image": "m_paita3.jpeg",
+            "price": 12.95,
+            "description": "Jack&Jones miesten printti t-paita. Pyöreäkauluksellinen lyhythihainen paita jossa edessä printti.\n\nREGULAR FIT\n\nMateriaali: 100%puuvillaa",
+            "discount": 0
+        },
+        {
+            "id" : "50cf7613-bc8e-4055-9950-2553eea6a69b",
+            "name" : "Jute dark blue legginsit",
+            "manufacturer": "Pieces",
+            "category_id": "017c32be-0836-422f-a69b-5e9a170f30fe",
+            "image": "n_housut_1.jpeg",
+            "price": 34.95,
+            "description": "Pieces naisten ihanat tummat farkkuleggarit! Farkkulegginsit ovat todella pehmeää, joustavaa ja miellyttävää materiaalia, edessä taskut ja takataskut, normaali vyötärö ja istuvuus.\n\nRegular fit, normaali vyötärö, miellyttävän joustavaa ja pehmeää materiaalia!\n\nMateriaali: 39%puuvillaa, 39% juuttia, 21% polyesteriä ja 1% elastaania.",
+            "discount": 0
+        },
+        {
+            "id" : "a9f7fb06-7edb-41c2-b558-c1fd55fe1aa2",
+            "name" : "Skin mustat farkut",
+            "manufacturer": "Pieces",
+            "category_id": "017c32be-0836-422f-a69b-5e9a170f30fe",
+            "image": "n_housut_2.jpeg",
+            "price": 24.99,
+            "description": "Pieces naisten mustat stretch farkut/ jeggingsit. Miellyttävän tuntuiset farkut jossa normaali, medium vyötärö, super skinny istuvuus, edessä feikki taskut, takana normaalit taskut, nappi+vetoketju kiinnitys\n\nRegular fit\n\nMateriaali:77% Viskoosi, 20% Nylon, 3% Elastaani",
+            "discount": 0.95
+        },
+        {
+            "id" : "538be69e-0fd3-42be-b554-4f9ce817e4bc",
+            "name" : "Kuviolliset kesähousut",
+            "manufacturer": "Vero Moda",
+            "category_id": "017c32be-0836-422f-a69b-5e9a170f30fe",
+            "image": "n_housut_3.jpeg",
+            "price": 19.95,
+            "description": "Vero Modan ihanan raikkaat ohuet kesähousut. Vyötärössä kuminauha, etutaskut, takana valetaskut. \n\nM-koon mitat: vyötärö: 71cm, venytettynä:96cm, vyötärö-lahje: 98cm\n\nMateriaali: 100% viskoosia",
+            "discount": 0
+        },
+        {
+            "id" : "5ebf58dd-c979-4965-bb00-e214d0548918",
+            "name" : "Akira harmaa liivi",
+            "manufacturer": "Vero Moda",
+            "category_id": "cf87deee-a868-4cc6-b696-22673406579f",
+            "image": "n_takki_1.jpeg",
+            "price": 54.95,
+            "description": "Vero Modan tyylikäs harmaa akira neuleliivi. Takaosa neuletta, ylhäällä edessä nappi, muuten avoin edestä. Ohut musta keinonahka vyö vyötäröä somistamassa.\n\nM koon pituus 69cm\n\nMateriaali: etuosa 100% akryyli , takaosa 100%polyesteri.",
+            "discount": 0.6
+        },
+        {
+            "id" : "58dbbaec-058e-4a05-8dca-32b08d67601f",
+            "name" : "Lyhyt nahkatakki",
+            "manufacturer": "Vero Moda",
+            "category_id": "cf87deee-a868-4cc6-b696-22673406579f",
+            "image": "n_takki_2.jpeg",
+            "price": 129.95,
+            "description": "Vero Moda Bono lyhyt musta nahkatakki. Takki aitoa nahkaa. Pitkät hihat ja pyöreä kaula-aukko. Vetoketju edessä vasemmalla. Vetoketju- ja halkiotasku edessä, sekä rintatasku.\n\nTight fit.\n\nMateriaali: Kuori 100% nahkaa, vuori 100% polyesteriä.",
+            "discount": 0.5
+        },
+        {
+            "id" : "02119df5-ce04-4a36-91b5-5d73e3ece8e4",
+            "name" : "Vaaleanharmaa villakangastakki",
+            "manufacturer": "Vero Moda",
+            "category_id": "cf87deee-a868-4cc6-b696-22673406579f",
+            "image": "n_takki_3.jpeg",
+            "price": 89.95,
+            "description": "Vero Modan naisten laadukas pitkä vaaleanharmaa villakangastakki. Takissa piilovetoketju ja painonapit, vyö vyötäröllä ja vetoketjutaskut edessä.\n\nRegular fit (S-koon pituus; 80cm)\n\nMateriaali: 70% polyesteria, 30% villaa, sisäpuoli 100% polyesteria",
+            "discount": 0
+        },
+        {
+            "id" : "1a2cf228-74ca-42d9-8fbe-e2673fea3834",
+            "name" : "I Woke up like this!",
+            "manufacturer": "Vero Moda",
+            "category_id": "f299516d-0e2c-4c15-8a09-92cbe4efd793",
+            "image": "n_paita_1.jpeg",
+            "price": 24.95,
+            "description": "Noisy Mayn makee tummanharmaa printti swetari. Collegepuseron etupuolella printti teksti: 'I woke up like this', resorit hihoissa ja helmassa, resorillinen pyöreä kaula-aukko. Jerseykangasta.\n\nRegular fit  M-koon mitat: olka-helma: 63cm  rinnanympärys: 104cm\n\nMateriaali: 80% puuvillaa, 20%polyesteriä",
+            "discount": 0
+        },
+        {
+            "id" : "7ff8dd8f-5d2e-4f09-a697-74a6491cbea5",
+            "name" : "Tummansininen neule",
+            "manufacturer": "Vero Moda",
+            "category_id": "f299516d-0e2c-4c15-8a09-92cbe4efd793",
+            "image": "n_paita_2.jpeg",
+            "price": 34.99,
+            "description": "Vero Moda naisten kaunis neule. Neule boatneck kaulua-aukolla, kevyet resorit hihoissa ja helmassa, ylhällä kaunis kuvio. Miellyttävää ja pehmeää materiaalia.\n\nREGULAR FIT\n\nMateriaali: 80%akryyliä, 20%polyesteriä",
+            "discount": 0.5
+        },
+        {
+            "id" : "7389d4d7-9f98-4f83-bf5a-af853d21f051",
+            "name" : "Almond neulepaita",
+            "manufacturer": "Vero Moda",
+            "category_id": "f299516d-0e2c-4c15-8a09-92cbe4efd793",
+            "image": "n_paita_3.jpeg",
+            "price": 34.99,
+            "description": "Vero Moda naisten rento neulepaita. Pitkähihainen neulepusero (kevyttä neulottua materiaalia) jossa napitus edessä.\n\nREGULAR FIT\n\nMateriaali: 50% Polyesteri, 45% Viskoosi, 5% Elastaani",
+            "discount": 0
         }
     ]
 }
