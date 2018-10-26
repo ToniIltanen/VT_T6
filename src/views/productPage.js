@@ -35,8 +35,10 @@ class ProductPage extends Component {
   fetchProduct = (product) => {
     Object.keys(db.products).forEach(p => {
       if(db.products[p].id === product) {
-        db.products[p].size = 29
-        this.setState({currentProduct: db.products[p]})
+        db.products[p].size = 'M'
+        this.setState({currentProduct: db.products[p]}, () => {
+          document.getElementById('title').scrollIntoView();
+        })
       }
     })
   }
@@ -44,16 +46,17 @@ class ProductPage extends Component {
   render() {
     const image = this.state.currentProduct && require("../assets/images/" + this.state.currentProduct.image)
     const discountPrice = this.state.currentProduct && (this.state.currentProduct.price * this.state.currentProduct.discount).toFixed(2)
+
     return (
     <Layout>
-        {this.state.currentProduct && <h3>{this.state.currentProduct.name}</h3>}
+        {this.state.currentProduct && <h3 id="title">{this.state.currentProduct.name}</h3>}
         {
           this.state.currentProduct && 
           <Row> 
             <Col colStyle="col-md-6 col-lg-6 col-sm-6 col-xs-12">
               <p style={{whiteSpace: 'pre-line'}}>{this.state.currentProduct.description}</p>
               <p>
-                  Hinta: <span className={discountPrice !== 0 ? "old-price" : "no-sale"}>{this.state.currentProduct.price}€</span> {discountPrice !== 0 && <span className="sale-price">{discountPrice}€</span>}
+                  Hinta: <span className={discountPrice !== '0.00' ? "old-price" : "no-sale"}>{this.state.currentProduct.price}€</span> {discountPrice !== '0.00' && <span className="sale-price">{discountPrice}€</span>}
               </p>
               <br />
               <br />
@@ -63,16 +66,14 @@ class ProductPage extends Component {
                     <td>Valitse koko: </td>
                     <td>
                     <select onChange={this.onSizeChange}>
-                      <option value="29">29</option>
-                      <option value="30">30</option>
-                      <option value="31">31</option>
-                      <option value="32">32</option>
-                      <option value="33">33</option>
-                      <option value="34">34</option>
-                      <option value="35">35</option>
-                      <option value="36">36</option>
-                      <option value="37">37</option>
-                      <option value="38">38</option>
+                      <option value="XS">XS</option>
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                      <option value="XXL">XXL</option>
+                      <option value="XXXL">XXXL</option>
+
                     </select>
                     </td>
                   </tr>

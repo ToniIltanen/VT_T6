@@ -1,0 +1,147 @@
+{
+    "categories" : {
+        "Miehet" : {
+            "name": "Miehet",
+            "id" : "82d7c3e2-0643-4625-a982-e640d6c3a82a",
+            "subcategories" : [
+                {
+                    "id" : "5e442be8-d8d5-4f0b-a02d-1f8d390b7852",
+                    "name" : "Housut",
+                    "isSubcategory": true
+                },
+                {
+                    "id" : "82d7c3e2-0643-4625-a982-e640d6c3a82a",
+                    "name" : "Paidat",
+                    "isSubcategory": true
+                },
+                {
+                    "id" : "64023f77-fbd7-44af-8e03-c2595f650258",
+                    "name" : "Takit",
+                    "isSubcategory": true
+                }
+            ]
+        },
+        "Naiset" : {
+            "id" : "287dda99-1e30-4136-ad9b-6b615b9c369d",
+            "name": "Naiset",
+            "subcategories" : [
+                {
+                    "id" : "a8b39b47-d1a3-4ce9-aea3-86b69d57152e",
+                    "name" : "Housut",
+                    "isSubcategory": true
+                },
+                {
+                    "id" : "f299516d-0e2c-4c15-8a09-92cbe4efd793",
+                    "name" : "Paidat",
+                    "isSubcategory": true
+                },
+                {
+                    "id" : "cf87deee-a868-4cc6-b696-22673406579f",
+                    "name" : "Takit",
+                    "isSubcategory": true
+                },
+                {
+                    "id" : "cf87deee-a868-4cc6-b696-22673406579f",
+                    "name" : "Tarvikkeet",
+                    "isSubcategory": true
+                }
+            ]
+        }
+    },
+    "warehouses": [
+       {
+           "name": "Oulu",
+            "id": "96a5cb3f-f78d-4984-8bfe-114655a57a23"
+       },
+       {
+            "name": "Helsinki",
+            "id": "f771c7cf-32d2-4c54-8cfe-a4c3242fd748"
+       },
+       {
+            "name": "Tampere",
+            "id": "817b1abe-e7b3-4d25-b144-f0b6c1f32444"
+       }
+    ],
+    "products" : [
+        {
+            "id" : "817b1abe-e7b3-4d25-b144-f0b6c1f32443",
+            "name" : "751 Vaalea Medium Wash original",
+            "manufacturer": "LEVI´S",
+            "category_id": "5e442be8-d8d5-4f0b-a02d-1f8d390b7852",
+            "image": "levis_751_vaalea.jpeg",
+            "price": 121.40,
+            "description": "(Korvaa poistuvan mallin 752) Levis 751 siniset kevyesti kulutuspestyt farkut.\nSuorat lahkeet.\nVetoketjullinen etuhalkio. 99% denimiä, 1% elastaania joka tekee farkuista erittäin miellyttävät jalassa.\n\nHUOM! MALLI 751 VALMISTUS LOPETETAAN JA SE KORVATAAN MALLILLA 514! Malli sama, numero muuttuu!\n\nMateriaali: 99% puuvillaa, 1% elastaania",
+            "discount": 0.25
+        },
+        {
+            "id" : "817b1abe-e7b3-4d25-b144-f0b6c1f32422",
+            "name" : "Twister 700524 Vaaleat farkut",
+            "manufacturer": "BLEND",
+            "category_id": "5e442be8-d8d5-4f0b-a02d-1f8d390b7852",
+            "image": "blender_524.jpeg",
+            "price": 122.40,
+            "description": "Blend twister makeet vaaleat farkut. Takataskuissa tyylikkäät tikkaukset ja yksityiskohdat. Matala vyötärö, kapeat lahkeet. Vetoketju + nappikiinnitys.\nBlendin suosittua twister miesten farkku mallia. \n\nBlendin tuotekuvaus: Low waist, Slim fit, narrow leg\n\nMateriaali: 100% puuvillaa",
+            "discount": 0.25
+        },
+        {
+            "id" : "817b1abe-e7b3-4d25-b144-f0b6c1f32421",
+            "name" : "501 musta medium wash original",
+            "manufacturer": "LEVI´S",
+            "category_id": "5e442be8-d8d5-4f0b-a02d-1f8d390b7852",
+            "image": "levis_501_musta.jpeg",
+            "price": 90,
+            "description": "Levis 501 mustat farkut. Normaali istuvuus. Suorat lahkeet. Nappikiinnitys.\n\nMateriaali: 100% puuvillaa",
+            "discount": 0
+        },
+        {
+            "id" : "a2c1d21a-ea4b-4c5e-a509-93fe9e6d2acc",
+            "name" : "514 stonewash medium siniset farkut",
+            "manufacturer": "LEVI´S",
+            "category_id": "5e442be8-d8d5-4f0b-a02d-1f8d390b7852",
+            "image": "levis_501_blue.jpeg",
+            "price": 85,
+            "description": "Levi´s 514 stonewash siniset farkut. Regular fit farkut suorilla lahkeilla. Vetoketjullinen etuhalkio.\n\nHUOM! Korvaa levis 751 ja 752 mallit, valmistajan mukaan malli melko sama kun edellä mainitut - mallinumero vain muuttuu.\n\nREGULAR FIT - Normaali vyötärö - suorat lahkeet.",
+            "discount": 0
+        },
+        {
+            "id" : "123d1857-d01d-4c14-9de3-dfc49ef2d619",
+            "name" : "527 boot cut 0552 ingenious vaaleat farkut",
+            "manufacturer": "LEVI´S",
+            "category_id": "5e442be8-d8d5-4f0b-a02d-1f8d390b7852",
+            "image": "levis_527_bootcut.jpeg",
+            "price": 100,
+            "description": "Levi's 527 miesten vaaleat Bootcut malliset farkut, vetoketjullinen etuhalkio. Miellyttävää joustavaa materiaalia, normaali vyötärön korkeus, levenevät lahkeet.\n\nMateriaali: 98% puuvillaa, 2%elastaania",
+            "discount": 0.85
+        },
+        {
+            "id" : "47d65cd6-b2ec-44fb-864d-70722bf5924f",
+            "name" : "Baron kevyt toppatakki",
+            "manufacturer": "Jack & Jones",
+            "category_id": "64023f77-fbd7-44af-8e03-c2595f650258",
+            "image": "jj_takki_baron.jpeg",
+            "price": 52.50,
+            "description": "Jack&Jones Baron kevyt toppatakki. Värinä tummansinen, 'Black Navy', punaisella vuorella.\nValmistajan tiedot:\n- Toppatakki CORE-mallistosta\n- Regular fit\n- Kiinteä huppu säädettävillä kiristysnyöreillä\n- Synteettinen untuvatoppaus\n- Täyspitkä vetoketju\n- Napilliset taskut",
+            "discount": 0.95
+        },
+        {
+            "id" : "c1e11436-2d84-45c2-8979-83828d2009ea",
+            "name" : "harmaa tikattu toppatakki",
+            "manufacturer": "Jack & Jones",
+            "category_id": "64023f77-fbd7-44af-8e03-c2595f650258",
+            "image": "jj_takki_harmaa.jpeg",
+            "price": 40.50,
+            "description": "Jack&Jones miesten harmaa tikattu toppatakki. Harmaa talvitakki mustilla yksityioskohdilla. Takissa paksu, lämmin ja sileä vuori, kaksoiskiinnitys; vetoketju ja napit, neljä käytännöllistä etitaskua, irrotettava huppu, istuvuutta voi säätää hupun kiristysnyöreillä.\nREGULAR FIT\nMateriaali: Kuori: 100% Polyesteri, Vuori: 100% Polyester, Toppaus: 100% Polyester",
+            "discount": 0.95
+        },
+        {
+            "id" : "8c113f8d-29ab-4311-ac67-105e807f253b",
+            "name" : "makee harmaa parkatakki",
+            "manufacturer": "Jack & Jones",
+            "category_id": "64023f77-fbd7-44af-8e03-c2595f650258",
+            "image": "jj_harmaa_parka.jpeg",
+            "price": 79.50,
+            "description": "Jack&Jones miesten makee harmaa parkatakki. Talvi parkatakki on vettä hylkivä ja paksusti topattu, siinä on irrotettava hupun reuna, isot etutaskut tarranauhakiinnityksellä, pehmeä ja mukava fleece kauluksen sisäpuolella, erikoissidos luo hienon struktuurin materiaaliin, tiiviit hihansuut suojaavat, iso sisätasku, vetoketju- ja painonappikiinnitys.\nTällä parkatakilla selviät takuulla talven yli. Se on vettä hylkivä ja paksusti topattu, ja sen ilmettä voi muunnella hupun irrotettavan reunan ansiosta.\nREGULAR FIT\n\nMateriaali:Kuori: 100% Polyesteriii, Vuori: 100% Polyester, Toppaus: 100% Polyester",
+            "discount": 0.95
+        }
+    ]
+}

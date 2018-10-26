@@ -198,7 +198,7 @@ class PurchasePage extends Component {
                   </tbody>
                 </table>
               </div>}
-              <table className='table' style={{margin: '0 auto'}}><tr>
+              <table className='table' style={{margin: '0 auto', width: '320px'}}><tr>
               {currentStep !== 0 && <td><Button style={{width: "160px"}} action={this.onClickBack} text='Edellinen' /></td>} 
               {currentStep < 2 && <td><Button style={{width: "160px"}} action={this.onClickNext } text='Seuraava' /></td> }
               {currentStep > 1 && <td><Button style={{width: "160px"}} action={() => submitOrder() } text='Vahvista tilaus' /></td> }
