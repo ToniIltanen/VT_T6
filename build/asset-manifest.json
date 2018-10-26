@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.c1bc2cfc.css",
   "main.css.map": "static/css/main.c1bc2cfc.css.map",
-  "main.js": "static/js/main.04d757e5.js",
-  "main.js.map": "static/js/main.04d757e5.js.map",
+  "main.js": "static/js/main.20edec97.js",
+  "main.js.map": "static/js/main.20edec97.js.map",
   "static/media/HappyDayatSchool.ttf": "static/media/HappyDayatSchool.1fb9da18.ttf",
   "static/media/banner.jpg": "static/media/banner.168df57b.jpg",
   "static/media/blender_524.jpeg": "static/media/blender_524.a1bcb25d.jpeg",
@@ -14,5 +14,17 @@
   "static/media/levis_527_bootcut.jpeg": "static/media/levis_527_bootcut.2e9e3b83.jpeg",
   "static/media/levis_751_vaalea.jpeg": "static/media/levis_751_vaalea.ae7b7fd7.jpeg",
   "static/media/m_farkut_1.jpg": "static/media/m_farkut_1.89b71b68.jpg",
+  "static/media/m_paita2.jpeg": "static/media/m_paita2.3329bc13.jpeg",
+  "static/media/m_paita3.jpeg": "static/media/m_paita3.22bacf01.jpeg",
+  "static/media/m_tpaita_1.jpeg": "static/media/m_tpaita_1.5404225a.jpeg",
+  "static/media/n_housut_1.jpeg": "static/media/n_housut_1.c9789c38.jpeg",
+  "static/media/n_housut_2.jpeg": "static/media/n_housut_2.a823a100.jpeg",
+  "static/media/n_housut_3.jpeg": "static/media/n_housut_3.89eaf061.jpeg",
+  "static/media/n_paita_1.jpeg": "static/media/n_paita_1.01c20462.jpeg",
+  "static/media/n_paita_2.jpeg": "static/media/n_paita_2.f950fcee.jpeg",
+  "static/media/n_paita_3.jpeg": "static/media/n_paita_3.b96a2016.jpeg",
+  "static/media/n_takki_1.jpeg": "static/media/n_takki_1.3e51da4b.jpeg",
+  "static/media/n_takki_2.jpeg": "static/media/n_takki_2.152d1f3d.jpeg",
+  "static/media/n_takki_3.jpeg": "static/media/n_takki_3.5048ae47.jpeg",
   "static/media/splash.jpg": "static/media/splash.7ed07dd0.jpg"
 }
